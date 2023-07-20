@@ -14,6 +14,8 @@
 		91D6CC7F2A693BAA001483B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D6CC7E2A693BAA001483B4 /* Assets.xcassets */; };
 		91D6CC822A693BAA001483B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D6CC802A693BAA001483B4 /* LaunchScreen.storyboard */; };
 		91D6CC852A693BAA001483B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D6CC842A693BAA001483B4 /* main.m */; };
+		91D6CC912A6948A6001483B4 /* GomobileTest.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D6CC902A6948A6001483B4 /* GomobileTest.xcframework */; };
+		91D6CC952A6949D4001483B4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 91D6CC942A6949D4001483B4 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		91D6CC812A693BAA001483B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91D6CC832A693BAA001483B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91D6CC842A693BAA001483B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91D6CC8C2A693C59001483B4 /* GomobileTest.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GomobileTest.xcframework; path = ../gomobile_test/GomobileTest.xcframework; sourceTree = "<group>"; };
+		91D6CC902A6948A6001483B4 /* GomobileTest.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GomobileTest.xcframework; sourceTree = "<group>"; };
+		91D6CC942A6949D4001483B4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91D6CC912A6948A6001483B4 /* GomobileTest.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +51,10 @@
 		91D6CC662A693BA9001483B4 = {
 			isa = PBXGroup;
 			children = (
+				91D6CC942A6949D4001483B4 /* README.md */,
 				91D6CC712A693BA9001483B4 /* GomobileTestAppObjc */,
 				91D6CC702A693BA9001483B4 /* Products */,
+				91D6CC8B2A693C59001483B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +82,15 @@
 				91D6CC842A693BAA001483B4 /* main.m */,
 			);
 			path = GomobileTestAppObjc;
+			sourceTree = "<group>";
+		};
+		91D6CC8B2A693C59001483B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91D6CC902A6948A6001483B4 /* GomobileTest.xcframework */,
+				91D6CC8C2A693C59001483B4 /* GomobileTest.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +152,7 @@
 			files = (
 				91D6CC822A693BAA001483B4 /* LaunchScreen.storyboard in Resources */,
 				91D6CC7F2A693BAA001483B4 /* Assets.xcassets in Resources */,
+				91D6CC952A6949D4001483B4 /* README.md in Resources */,
 				91D6CC7D2A693BA9001483B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

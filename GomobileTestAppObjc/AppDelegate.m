@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+#import <GomobileTest/GomobileTest.h>
 
 @interface AppDelegate ()
 
@@ -16,6 +17,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    long res;
+    NSError* error;
+    GomobileTestGomobile_testAdd(2, 3, &res, &error);
+    printf("\nTestResult %lo\n", res);
     return YES;
 }
 
